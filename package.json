@@ -1,0 +1,20 @@
+{
+  "name": "esy-minimal-base-project",
+  "version": "0.1.0",
+  "description": "Reason workflow with Esy",
+  "license": "MIT",
+  "esy": {
+    "build": ["dune build ./foo.bc.js --profile release"],
+    "buildsInSource": "_build"
+  },
+  "peerDependencies": {
+    "ocaml": "~4.6.0"
+  },
+  "devDependencies": {
+    "ocaml": "~4.6.0"
+  }, 
+  "dependencies": {
+    "@opam/dune": "*",
+    "@opam/js_of_ocaml-compiler": "*"
+  }
+}
